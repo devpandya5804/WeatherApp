@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather</title>
+    <script src="newscript.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="title">Weather Today</div>
+        <div class="search">
+            <input type="search" placeholder="Search...">
+            <button type="submit" id="submit"><img src="images/search_icon.png" height="48px"></button>
+        </div>
+
+    </nav>
+
+    <div class="infocard">
+        <div class="place"></div>
+        <div class="temp">
+            <div class="image"><img class="icon" height="200px"></div>
+            <div class="tempvalue"></div>
+        </div>
+        
+        <div class="otherdata">
+            <ul>
+                <li><span id="cloud_status"></span></li>
+                <li>Humidity : <span id="humidity"></span> % </li>
+                <li>Wind : <span id="wind"></span> km/h</li>
+
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
