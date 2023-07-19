@@ -19,20 +19,30 @@
 
     </nav>
 
-    <div class="infocard">
-        <div class="place"></div>
-        <div class="temp">
-            <div class="image"><img class="icon" height="200px"></div>
-            <div class="tempvalue"></div>
+    <div class="main">
+        <div class="infocard">
+            <div class="place"></div>
+            <div class="temp">
+                <div class="image"><img class="icon" height="200px"></div>
+                <div class="tempvalue"></div>
+            </div>
+            
+            <div class="otherdata">
+                <ul>
+                    <li><span id="cloud_status"></span></li>
+                    <li>Humidity : <span id="humidity"></span> % </li>
+                    <li>Wind : <span id="wind"></span> km/h</li>
+    
+                </ul>
+            </div>
         </div>
-        
-        <div class="otherdata">
-            <ul>
-                <li><span id="cloud_status"></span></li>
-                <li>Humidity : <span id="humidity"></span> % </li>
-                <li>Wind : <span id="wind"></span> km/h</li>
-
-            </ul>
+    
+        <div class="forecast">
+            <div class="day1"><span id="day1"></span> : <span id="avgtemp1"></span> <span id="condition1"></span></div>
+            <div class="day2"><span id="day2"></span> : <span id="avgtemp2"></span> <span id="condition2"></span></div>
+            <div class="day3"><span id="day3"></span> : <span id="avgtemp3"></span> <span id="condition3"></span></div>
+            <div class="day4"><span id="day4"></span> : <span id="avgtemp4"></span> <span id="condition4"></span></div>
+            <div class="day5"><span id="day5"></span> : <span id="avgtemp5"></span> <span id="condition5"></span></div>
         </div>
     </div>
 </body>

@@ -28,7 +28,7 @@ nav{
 .search{
     display: flex;
     scale: 1.2;
-    margin-right: 10px;
+    margin-right: 42px;
 }
 
 nav input[type=search]{
@@ -49,8 +49,15 @@ nav button img{
     margin: -4px;
 }
 
+.main{
+    display: grid;
+    height: fit-content;
+    width: fit-content;
+    grid-template-columns: auto auto;
+}
+
 .infocard{
-    display:grid;
+    display:inline-grid;
     grid-template-columns: 360px auto;
     grid-template-rows: 80px;
     height: 500px;
@@ -89,4 +96,20 @@ ul{
     list-style-type: none;
 }
 
+.forecast{
+    display:inline-grid;
+    grid-template-columns:auto;
+    grid-template-rows: 80px;
+    height: 500px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color:black;
+    margin: 69px;
+    border-radius: 20px;
+    font-size: 42px;
 
+}
+
+.day1, .day2 ,.day3 ,.day4, .day5{
+    margin: 15px;
+}
